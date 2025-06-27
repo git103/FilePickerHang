@@ -16,10 +16,10 @@ The task should complete and return null when the user cancels the file picker.
 The task remains in a pending state indefinitely.
 
 **Environment:**  
-.NET MAUI version: 9.0.80
-.NET version: 9.0
-Target platform: iOS
-Devices: iOS < 16
+.NET MAUI version: 9.0.80  
+.NET version: 9.0  
+Target platform: iOS  
+Devices: iOS < 16  
 
 **Additional Context:**  
 This issue occurs specifically when the user cancels the picker by swiping to close. The cancel button works correctly and the issue also does not occur when a file is successfully picked.  
